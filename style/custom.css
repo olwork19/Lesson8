@@ -1,0 +1,57 @@
+*,
+*::before,
+*::after { box-sizing:border-box; }
+a { text-decoration:none; color:inherit; cursor:pointer; }
+button { background-color:transparent; color:inherit; border-width:0; padding:0; cursor:pointer; }
+figure{ margin:0; }
+ul, ol, dd { margin:0; padding:0; list-style:none; }
+h1, h2, h3, h4, h5, h6 { margin:0; font-size:inherit; font-weight:inherit; }
+p { margin:0; }
+cite { font-style:normal; }
+fieldset { border-width:0; padding:0; margin:0; }
+   
+@font-face {
+    font-family: "BerkshireSwash";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local("BerkshireSwash"),
+    url("../fonts/Berkshire_Swash/BerkshireSwash_Regular.ttf") format("truetype"),
+}
+
+* {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 35px;
+    color:rgba(3, 129, 141, 0.765);
+    text-indent: 70px;
+    font-weight: 900;
+    line-height: 70px;
+    word-spacing: -1px;
+}
+
+.trispace_text {
+    font-family: 'Trispace', sans-serif;
+    font-size:30px;
+    color: gold;
+    text-indent: 50px;
+    font-weight: 300;
+    text-align: justify;
+    line-height: 50px;
+    letter-spacing: 2px;
+    text-shadow: 3px 3px 1px gray;
+}
+
+.oswald_text {
+    font-family: 'Oswald', sans-serif;
+    font-size:20px;
+    color:grey;
+    text-indent: 50px;
+    font-weight: 600;
+    line-height: 30px;
+    word-spacing: 5px;
+    text-align: right;
+    letter-spacing: 4px;
+}
+
+
+
